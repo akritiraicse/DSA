@@ -6,6 +6,9 @@ public:
         int index=-1;
         for(int i=0;i<n;i++){
             if(capacity[i]>=itemSize){
+                /*if(index==-1||capacity[i]<capacity[index]){
+                  index=i;
+                }*/
                 arr.push_back(capacity[i]);
             }
         }
